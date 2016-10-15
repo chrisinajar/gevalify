@@ -1,6 +1,6 @@
 {
   "name": "gevalify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Turn an event on an EventEmitter into a geval event",
   "main": "index.js",
   "scripts": {
