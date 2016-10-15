@@ -1,0 +1,35 @@
+{
+  "name": "gevalify",
+  "version": "0.0.0",
+  "description": "Turn an event on an EventEmitter into a geval event",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape ./test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/gevalify.git"
+  },
+  "keywords": [
+    "geval",
+    "event",
+    "eventemitter",
+    "mercury",
+    "functional"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/gevalify/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/gevalify#readme",
+  "devDependencies": {
+    "ap": "^0.2.0",
+    "semistandard": "^9.1.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  },
+  "dependencies": {
+    "geval": "^2.1.1"
+  }
+}
